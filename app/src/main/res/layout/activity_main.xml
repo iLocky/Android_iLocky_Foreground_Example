@@ -9,8 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ilocky.foregroundexample.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/ivKey"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/key_interaction"
+        />
 </RelativeLayout>
